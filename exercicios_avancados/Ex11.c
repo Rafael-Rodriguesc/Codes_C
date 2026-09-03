@@ -165,7 +165,7 @@ void maiorSalario(Funcionario funcionarios[], int quantidade) {
         }
     }
 
-    printf("\n===== MAIOR SALARIO =====\n");
+    printf("\nMAIOR SALARIO\n");
     printf("ID: %d\n", funcionarios[posicaoMaior].id);
     printf("Nome: %s\n", funcionarios[posicaoMaior].nome);
     printf("Idade: %d\n", funcionarios[posicaoMaior].idade);
