@@ -1,6 +1,6 @@
 # Exercícios em C
 
-Repositório criado para armazenar exercícios e práticas de programação em linguagem C, desenvolvidos ao longo dos estudos de Ciência da Computação.
+Repositório criado para armazenar exercícios e práticas de programação em linguagem C, desenvolvidos ao longo dos estudos do curso.
 
 ## 📚 Sobre
 
