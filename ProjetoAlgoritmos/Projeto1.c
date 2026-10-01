@@ -1,4 +1,4 @@
-//Safedrive - Processamento de telemetria ADAS 
+//NOME:Rafael Campos Rodrigues | RA: 10331586 | TURMA: 2D12 | DISCIPLINA: Algoritmos de programação II
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -208,9 +208,9 @@ void exibirRelatorio(
         if (status[i][0] == 0)
             printf("SEGURO\n");
         else if (status[i][0] == 1)
-            printf("ATENCAO\n");
+            printf("ATENCÃO\n");
         else
-            printf("RISCO DE COLISAO (AEB ACIONADO)\n");
+            printf("RISCO DE COLISÃO (AEB ACIONADO)\n");
 
         printf("\n[FAIXAS]\n");
 
@@ -218,17 +218,17 @@ void exibirRelatorio(
         if (status[i][1] == 0)
             printf("NORMAL\n");
         else if (status[i][1] == 1)
-            printf("ATENCAO\n");
+            printf("ATENCÃO\n");
         else
-            printf("PERIGO DE INVASAO\n");
+            printf("PERIGO DE INVASÃO\n");
 
         printf("Direita: ");
         if (status[i][2] == 0)
             printf("NORMAL\n");
         else if (status[i][2] == 1)
-            printf("ATENCAO\n");
+            printf("ATENCÃO\n");
         else
-            printf("PERIGO DE INVASAO\n");
+            printf("PERIGO DE INVASÃO\n");
 
         maiorRisco = status[i][0];
 
@@ -241,9 +241,9 @@ void exibirRelatorio(
         printf("\n[STATUS GERAL]\n");
 
         if (maiorRisco == 2)
-            printf("STATUS GERAL: INTERVENCAO CRITICA EXIGIDA\n");
+            printf("STATUS GERAL: INTERVENCÃO CRÍTICA EXIGIDA\n");
         else if (maiorRisco == 1)
-            printf("STATUS GERAL: ATENCAO\n");
+            printf("STATUS GERAL: ATENCÃO\n");
         else
             printf("STATUS GERAL: NORMAL\n");
     }
