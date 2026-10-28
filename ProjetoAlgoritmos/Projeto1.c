@@ -1,4 +1,5 @@
 //NOME:Rafael Campos Rodrigues | RA: 10331586 | TURMA: 2D12 | DISCIPLINA: Algoritmos de programação II
+//NOME:Maria Eduarda Salvino | RA: 10770041 | TURMA: 2D12 | DISCIPLINA: Algoritmos de programação II
 
 #include <stdio.h>
 #include <stdlib.h>
