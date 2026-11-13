@@ -1,3 +1,5 @@
+//NOME: Rafael Campos Rodrigues | RA: 10331586 | TURMA: 2D12; 2D
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
